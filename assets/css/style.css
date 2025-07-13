@@ -1,0 +1,188 @@
+/* Smooth fade-in and layout */
+#orderForm,
+#thankYouMessage {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.4s ease;
+  display: none;
+  text-align: center;
+}
+
+#orderForm.show,
+#thankYouMessage.show {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Input and button styling */
+.text-content input {
+  background-color: #ffffff;
+  color: #333;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 8px 5px;
+  width: 220px;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.text-content input:focus {
+  outline: none;
+  border-color: maroon;
+}
+
+/* Order button styling */
+.text-content .filled-button {
+  background-color: maroon;
+  color: #fff;
+  border: none;
+  padding: 10px 25px;
+  margin-top: 15px;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.text-content .filled-button:hover {
+  background-color: #a00000;
+  cursor: pointer;
+}
+
+/* Thank you text */
+#thankYouMessage h5 {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+  margin-top: 20px;
+}
+/* Smooth fade-in and layout */
+#orderForm,
+#thankYouMessage {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.4s ease;
+  display: none;
+  text-align: center;
+}
+
+#orderForm.show,
+#thankYouMessage.show {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Input and button styling */
+.text-content input {
+  background-color: #ffffff;
+  color: #333;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 8px 5px;
+  width: 220px;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.text-content input:focus {
+  outline: none;
+  border-color: maroon;
+}
+
+/* Order button styling */
+.text-content .filled-button {
+  background-color: maroon;
+  color: #fff;
+  border: none;
+  padding: 10px 25px;
+  margin-top: 15px;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.text-content .filled-button:hover {
+  background-color: #a00000;
+  cursor: pointer;
+}
+
+/* Thank you text */
+#thankYouMessage h5 {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.ambika{
+    width: 50%!important;
+    margin-left: 25%;
+}
+.sadia{
+    width: 81%!important;
+    margin-left: 10%;
+}
+.beef{
+    width: 95%!important;
+    margin-left: 2.5%;
+}
+.shrimp{
+    width: 63% !important;
+    margin-left: 21%;
+}
+.garammasala{
+    width: 45%!important;
+    margin-left: 28%;
+}
+.haleem{
+    width: 63%!important;
+    margin-left: 21%;
+}
+#cart-counter {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: maroon;
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 6px 14px;
+  border-radius: 30px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+.add-to-cart-btn {
+  background-color: #800000; /* maroon */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.add-to-cart-btn:hover {
+  background-color: #a00000;
+  transform: scale(1.03);
+  cursor: pointer;
+}
+
+.add-to-cart-btn:active {
+  transform: scale(0.96);
+  background-color: #700000;
+}
+
+/* Optional animation when clicked */
+.add-to-cart-btn.clicked {
+  background-color: #4caf50 !important;
+  color: #fff;
+  box-shadow: 0 0 10px #4caf50;
+}
